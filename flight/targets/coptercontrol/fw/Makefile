@@ -275,6 +275,7 @@ SRC += $(PIOSCOMMON)/pios_usb_desc_hid_only.c
 SRC += $(PIOSCOMMON)/pios_usb_util.c
 
 ## PIOS Hardware (Common)
+SRC += $(PIOSCOMMON)/pios_ws2811strip.c
 SRC += $(PIOSCOMMON)/pios_delay.c
 SRC += $(PIOSCOMMON)/pios_crc.c
 SRC += $(PIOSCOMMON)/pios_flashfs_logfs.c
