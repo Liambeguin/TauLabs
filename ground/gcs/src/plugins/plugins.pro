@@ -367,3 +367,8 @@ plugin_boards_stm.subdir = boards_stm
 plugin_boards_stm.depends = plugin_coreplugin
 plugin_boards_stm.depends = plugin_uavobjects
 SUBDIRS += plugin_boards_stm
+
+# Led Configurator
+SUBDIRS += plugin_ledconf
+plugin_ledconf.subdir = ledconf
+plugin_ledconf.depends = plugin_coreplugin
